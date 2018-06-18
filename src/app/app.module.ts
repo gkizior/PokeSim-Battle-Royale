@@ -3,12 +3,10 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
 // *******************************************************************************
 // NgBootstrap
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
 
 // *******************************************************************************
 // App
@@ -18,27 +16,22 @@ import { AppComponent } from './app.component';
 import { AppService } from './app.service';
 import { LayoutModule } from './layout/layout.module';
 
-
 // *******************************************************************************
 // Pages
 
 import { HomeComponent } from './home/home.component';
-import { Page2Component } from './page-2/page-2.component';
-
 
 // *******************************************************************************
 //
 
 import { HttpModule } from '@angular/http';
 
-
 @NgModule({
   declarations: [
     AppComponent,
 
     // Pages
-    HomeComponent,
-    Page2Component
+    HomeComponent
   ],
 
   imports: [
@@ -51,13 +44,8 @@ import { HttpModule } from '@angular/http';
     LayoutModule
   ],
 
-  providers: [
-    Title,
-    AppService
-  ],
+  providers: [Title, AppService],
 
-  bootstrap: [
-    AppComponent
-  ]
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
