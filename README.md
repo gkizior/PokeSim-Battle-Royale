@@ -1,27 +1,23 @@
 # PokGuide
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
+Windows
 
-## Development server
+1.  Download and install Node.js 8.x from https://nodejs.org/en/.
+2.  Download and install Git from https://git-scm.com/downloads.
+3.  Download and install Yarn from https://yarnpkg.com/en/docs/install.
+4.  Logout from the system and login again.
+5.  Launch cmd.exe as administrator and run command `npm install --add-python-to-path='true' --global --production windows-build-tools`
+6.  Logout from the system and login again.
+7.  Open cmd.exe, go to the SkillTracker-UI directory and run command `yarn install`
+8.  To run, run command `npm run start`
+9.  Open browser and go to http://localhost:4200
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Mac OS X
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1.  Install Xcode from App Store. After installing, launch the Xcode, accept the license agreement and wait while components installed.
+2.  Install Homebrew following instructions on https://brew.sh.
+3.  Download and install Node.js 8.x from https://nodejs.org/en/.
+4.  Download and install Git from https://git-scm.com/downloads.
+5.  Install Yarn following instructions on https://yarnpkg.com/en/docs/install.
+6.  Open terminal, go to the SkillTracker-UI directory and run command `yarn install`.
+7.  Open browser and go to http://localhost:4200
