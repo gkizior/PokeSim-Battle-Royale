@@ -1,4 +1,4 @@
-# PokGuide
+# PokeSim Battle Royale
 
 Windows
 
